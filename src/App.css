@@ -12,3 +12,7 @@ form div{
 form label{
   display: inline-block;
 }
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}

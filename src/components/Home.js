@@ -1,8 +1,12 @@
 import React from 'react'
+import TopNavigation from './TopNavigation'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='App'>
+      <TopNavigation/>
+      <h2>Home</h2>
+    </div>
   )
 }
 

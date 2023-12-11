@@ -1,4 +1,6 @@
 import React from 'react'
+import TopNavigation from './TopNavigation'
+import { Link } from 'react-router-dom'
 
 function Signup() {
   return (
@@ -45,6 +47,8 @@ function Signup() {
            <button>Submit</button>
         </div>
       </form>
+      <br/>
+      <Link to="/">Login</Link>
   </div>
   )
 }
