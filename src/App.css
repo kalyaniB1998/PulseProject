@@ -11,3 +11,7 @@ form label{
 form div{
   padding: 10px;
 }
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
