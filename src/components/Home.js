@@ -1,11 +1,9 @@
 import React from 'react'
+import TopNavigation from './TopNavigation'
 
 function Home() {
   return (
-    <div>
-        <h1>Home</h1>
-        <img src='./images/brn.png'></img>
-    </div>
+    <div>Home</div>
   )
 }
 

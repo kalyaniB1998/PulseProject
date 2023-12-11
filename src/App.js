@@ -7,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <Login></Login>
-      <Home></Home>
-     
+      <h1> This line added by Kalyani </h1> 
     </div>
   );
 }
