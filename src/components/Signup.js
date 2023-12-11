@@ -1,23 +1,26 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 function Signup() {
   return (
     <div className='App'>
-<form>
-        <h1 className="v">Signup</h1>
+    
+      <form>
+        <h2>Signup</h2>
+      <div>
         <input class="login" type="Name" placeholder="First Name"/>
-        <br/>
-        <br/>
+      </div>
+      <div>
         <input class="login" type="Name" placeholder="Last name"/>
-        <br/>
-        <br/>
+      </div>
+      <div>
         <input class="password" type="number" placeholder="Mobile No"/>
-        <br/>
-        <br/>
+      </div>
+      <div>
         <input class="password" type="name" placeholder="City/Town"/>
-        <br/>
-        <br/>
-        <div>
+      </div>
+      <div>
             <select>
                 <option value="choose your state">Choose your states</option>
                 <option value="Ap">Andhra pradesh</option>
@@ -26,24 +29,28 @@ function Signup() {
                 <option value="up">Uttar pradesh</option>
             </select>
         </div>
+        <div>
+           <input class="password" type="file" placeholder="profile pic"/>
+           <br/>
+           <br/>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPoHljTV9c5ViwxQOf7TwqybNnhGh_FNY0hg&usqp=CAU"/>
+        </div>
         <br/>
         <br/>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPoHljTV9c5ViwxQOf7TwqybNnhGh_FNY0hg&usqp=CAU"/>
-        <input class="password" type="file" placeholder="profile pic"/>
-        <br/>
-        <br/>
-        <h5>Enter your account details:</h5>
-        <input class="login" type="email" placeholder="email Address"/>
-         <br/>
-         <br/>
-         <input class="password" type="password" placeholder="password"/>
-          <br/>
-          <br/>
-       <button>Submit</button>
-
-</form>
-
-    </div>
+          <h5>Enter your account details:</h5>
+        <div>
+          <input class="login" type="email" placeholder="email Address"/> 
+        </div>
+        <div>
+           <input class="password" type="password" placeholder="password"/>
+        </div>
+        <div>
+           <button>Submit</button>
+        </div>
+      </form>
+      <br/>
+      <Link to="/">Login</Link>
+  </div>
   )
 }
 
