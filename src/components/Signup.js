@@ -48,7 +48,7 @@ function Signup() {
            <input className="login" type="password" placeholder="password"/>
         </div>
         <div>
-           <button className='login'>Submit</button>
+           <button className='password'>Submit</button>
         </div>
       </form>
       <br/>
