@@ -29,3 +29,10 @@ form div{
   margin-left: 600px;
   width: 300px;
   }
+  h1{
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin-left: 650px;
+  }
