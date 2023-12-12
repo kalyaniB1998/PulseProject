@@ -3,7 +3,9 @@ import TopNavigation from './TopNavigation'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <h1>Welcome To Home Page</h1>
+    </div>
   )
 }
 
