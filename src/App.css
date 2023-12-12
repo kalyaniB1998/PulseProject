@@ -15,3 +15,18 @@ nav{
   display: flex;
   justify-content: space-evenly;
 }
+.login{
+  border-style: solid;
+  border-color: grey;
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  font-size: medium;
+  color: rgb(11, 11, 12);
+}
+.profilepic{
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(147, 139, 139);
+  background-color: rgb(110, 125, 141);
+}
