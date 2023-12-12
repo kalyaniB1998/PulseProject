@@ -1,13 +1,14 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
+
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Home from './components/Home';
+
 
 function App() {
   return (
-    <div className="App">
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Login/>}></Route>
@@ -16,9 +17,10 @@ function App() {
       <Route path="/">Delete</Route>
       <Route path="/">Logout</Route>
     </Routes>
-    </BrowserRouter>
-    </div>
-  );
+</BrowserRouter>
+)
 }
+
+
 
 export default App;
