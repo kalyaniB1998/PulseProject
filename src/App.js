@@ -15,11 +15,15 @@ function App() {
       <Route path='/' element={<Login/>}></Route>
       <Route path='/signup' element={<Signup/>}></Route>
       <Route path='/home' element={<Home/>}></Route>
-      <Route path='/TopNavigation' element={<TopNavigation/>}></Route>
+      <Route path='/TopNavigation' element={<TopNavigation/>}>
+
+
+      </Route>
   </Routes>
 
     </BrowserRouter>
 );
 }
+
 
 export default App;
