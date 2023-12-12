@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
            <TopNavigation/>
-        <img src='./images/brn.png'></img>
+        <img src='./images/brn.png' className='img'></img>
         <h1>Welcome To Home Page</h1>
 
   
