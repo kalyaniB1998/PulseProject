@@ -3,11 +3,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Signup() {
+
   return (
     <div className='App'>
     
       <form>
-        <h2>Signup</h2>
+      <div>
+           <h2>Signup</h2>
+      </div>
       <div>
         <input className="login" type="Name" placeholder="First Name"/>
       </div>
@@ -33,9 +36,11 @@ function Signup() {
           <img className='profilepic' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPoHljTV9c5ViwxQOf7TwqybNnhGh_FNY0hg&usqp=CAU"/>
           <br></br>
           <br></br>
-          <input className='' type="file" placeholder="profile pic"/>
+          {/* <input className='' type="file" placeholder="image"/> */}
         </div>
+        <div>
           <h5>Enter your account details:</h5>
+        </div>
         <div>
           <input className="login" type="email" placeholder="email Address"/> 
         </div>
