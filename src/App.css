@@ -29,10 +29,17 @@ form div{
   margin-left: 600px;
   width: 300px;
   }
+
   h1{
     text-align: center;
   }
   img{
     display: block;
-    margin-left: 650px;
+    margin-left: 650px;}
+
+  .password{
+     width: 70px;
+     border-color: rgb(152, 152, 152);
+     background-color: rgb(186, 186, 188);
+
   }
