@@ -7,13 +7,8 @@ function Home() {
            <TopNavigation/>
         <img src='./images/brn.png' className='img'></img>
         <h1>Welcome To Home Page</h1>
-
-  
-       
-
-
     </div>
   )
 }
 
-export default Home
+export default Home  
