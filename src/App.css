@@ -2,20 +2,8 @@
   text-align: center;
 }
 
-form{
-  margin: 10px;
-}
-form label{
-  padding: 10px;
-}
-form div{
-  padding: 10px;
-}
 nav{
   display: flex;
   justify-content: space-evenly;
 }
-img{
-  height: 100px;
-  width: 100px;
-}
+
