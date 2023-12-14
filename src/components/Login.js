@@ -17,8 +17,8 @@ function Login() {
             </div>
             <button>Login</button>
         </form>
-        <br/>
-        <Link to="/signup">CREATE AN ACCOUNT</Link>
+        {/* <br/>
+        <Link to="/signup">CREATE AN ACCOUNT</Link> */}
 
     </div>
   )
