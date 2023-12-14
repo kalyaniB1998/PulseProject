@@ -16,7 +16,8 @@ form div{
   padding: 10px;
   }
 .login{
-  border: 5px solid gray;
+  border-radius: 5px;
+  border: 2px solid gray;
   display: inline-block;
   width: 200px;
   height: 35px;
@@ -35,20 +36,3 @@ form div{
   border-color: rgb(152, 152, 152);
   background-color: rgb(186, 186, 188);
 }
-form div{
-  background-color:rgb(244, 240, 240);
-  padding: 10px;
-  margin-left: 600px;
-  width: 300px;
-  }
-
-  .img{
-    display: block;
-    }
-
-  .password{
-     width: 70px;
-     border-color: rgb(152, 152, 152);
-     background-color: rgb(186, 186, 188);
-
-  }
