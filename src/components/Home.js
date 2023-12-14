@@ -3,7 +3,7 @@ import TopNavigation from './TopNavigation'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='App'>Home</div>
   )
 }
 

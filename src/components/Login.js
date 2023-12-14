@@ -7,16 +7,19 @@ function Login() {
     <div className='App'>
         <TopNavigation/>
         <form>
-            <h2>Login</h2>
+          <img src="./images/brn.png"></img>
+        <h2>Sign In</h2>
             <div>
                 <input placeholder='Email'></input>
             </div>
             <div>
                 <input placeholder='Password'></input>
             </div>
+            <button>Login</button>
         </form>
         <br/>
-        <Link to="/signup">Signup</Link>
+        <Link to="/signup">CREATE AN ACCOUNT</Link>
+
     </div>
   )
 }
