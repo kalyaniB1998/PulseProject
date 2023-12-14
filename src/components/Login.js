@@ -17,8 +17,8 @@ function Login() {
                 <input placeholder='Password'></input>
             </div>
             <br></br>
-            <button type="button">Signup</button>
-            
+            <button type="button">LOGIN</button>
+            <br></br>
             <Link to="/signup">Create an account</Link>
            
         </form>
