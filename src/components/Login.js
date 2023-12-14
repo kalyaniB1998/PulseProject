@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 function Login() {
 
   return (
+    
     <div className='App'>
         <TopNavigation/>
         <form>
@@ -22,7 +23,7 @@ function Login() {
             <div>
             <Link className="acc" to="/signup">CREATE AN ACCOUNT</Link>
             </div>
-            <Link>Fotgot Password?</Link>
+            <Link to="/Forgot Password">Fotgot Password?</Link>
         </form>
     </div>
   )

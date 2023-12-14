@@ -1,21 +1,22 @@
 import React from 'react'
 import TopNavigation from './TopNavigation'
+import { Link } from 'react-router-dom'
 
 function ForgotPassword() {
   return (
-    <div className='App'>
-    <TopNavigation/>
-        <h1>Forgot Password ?</h1>
-        <br></br>
-        Enter your registred e-mail address below to get your password to email.
+    <div className='forgot'>
+    
+        <h1 className='h1'>Forgot Password ?</h1>
+        
+       <p>Enter your registred e-mail address below to get your password to email.</p> 
         <div>
                 <input placeholder='Email' ></input>
             </div>
-            <div>
-                <button type="button">Back</button>
-
-                <button type="button">Submit</button>
-            </div>
+            <br></br>
+            <button type='button'>Back</button> 
+              
+                <Link to="/signup">Submit</Link>
+          
     </div>
   )
 }

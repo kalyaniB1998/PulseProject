@@ -18,7 +18,7 @@ form div{
   }
 .login{
   border-radius: 5px;
-  border: 2px solid gray;
+  border: 2px solid rgb(227, 200, 200);
   display: inline-block;
   width: 200px;
   height: 50px;
@@ -42,4 +42,12 @@ form div{
   height: 40px;
   background-color: rgb(201, 200, 200); 
 }
-
+.forgot{
+background-color: rgb(233, 225, 216);
+margin-left: 400px;
+text-align: center;
+width: 450px;
+}
+h1{
+  color: rgb(8, 99, 8);
+}
