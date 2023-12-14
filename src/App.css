@@ -27,12 +27,9 @@ form div{
   padding: 10px;
   margin-left: 600px;
   width: 300px;
+  text-align: center;
   }
-
-  .img{
-    display: block;
-  margin-left: 650px;
-    }
+ 
 
   .password{
      width: 70px;
