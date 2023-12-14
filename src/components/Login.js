@@ -19,8 +19,8 @@ function Login() {
             <br></br>
             <button type="button">LOGIN</button>
             <br></br>
-            <Link to="/signup">Create an account</Link>
-           
+            <br></br>
+            <Link className="acc" to="/signup">Create an account</Link>
         </form>
       
     

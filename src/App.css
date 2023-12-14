@@ -37,4 +37,9 @@ form div{
   border-color: rgb(152, 152, 152);
   background-color: rgb(186, 186, 188);
 }
+.acc{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(201, 200, 200); 
+}
 
