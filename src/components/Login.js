@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Login() {
   return (
     <div className='App'>
-      
+
         <TopNavigation/>
         <form>
           <img src="./images/brn.png"></img>
@@ -17,6 +17,8 @@ function Login() {
                 <input placeholder='Password'></input>
             </div>
             <br></br>
+            <button type="button">Signup</button>
+            
             <Link to="/signup">Create an account</Link>
            
         </form>
