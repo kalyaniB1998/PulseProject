@@ -44,238 +44,246 @@ function GetReport() {
             <th>Worked per day</th>
             <th>Shortage per day</th>
  </tr>
-       <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
+       <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
       </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-      </tr>
-      <tr>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
-            <td className='two'></td>
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
       </tr>
 
-</table>
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+
+      <tr className="two">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+    
+    </table>
    </div>
   )
 }
