@@ -18,6 +18,31 @@ function Messages() {
  <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
 </nav>
 </div>
+<div>
+  <table>
+    <thead>
+    <tr>
+      <th>Msg UID.</th>
+      <th>Category</th>
+      <th>Subject</th>
+      <th>Sent to</th>
+      <th>read/unread</th>
+      <th>Sent By</th>
+      <th>Delivered on</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+    
+  </table>
+</div>
     </div>
   )
 }

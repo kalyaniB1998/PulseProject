@@ -19,6 +19,8 @@ function BatchesSummary() {
  <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
 </nav>
 </div>
+
+
     </div>
   )
 }
