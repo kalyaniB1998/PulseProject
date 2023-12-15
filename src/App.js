@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Home from './components/Home';
 import TopNavigation from "./components/TopNavigation";
+
 import Tasks from "./components/Tasks";
 import Ranking from "./components/Ranking";
 import FeeReport from "./components/FeeReport";
@@ -12,6 +13,10 @@ import Messages from "./components/Messages";
 import Requests from "./components/Requests";
 import BatchesSummary from "./components/BatchesSummary";
 import ManageUser from "./components/ManageUser";
+
+import ForgotPassword from "./components/ForgotPassword";
+
+
 
 function App() {
   return (
@@ -29,7 +34,11 @@ function App() {
       <Route path='/ManageTask' element={<ManageTask/>}></Route>
       <Route path='/ManageUser' element={<ManageUser/>}></Route>
       <Route path='/TopNavigation' element={<TopNavigation/>}></Route>
+
       
+
+      <Route path='Forgot password' element={<ForgotPassword/>}></Route>
+
   </Routes>
     </BrowserRouter>
 );
