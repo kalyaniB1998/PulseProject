@@ -35,7 +35,9 @@ function Ranking() {
 <br></br>
 
 <br></br>
-  <button type='button'>Get Report</button>
+  <button type='button' onClick={()=>{
+    <NavLink to={"/GetReport"}></NavLink>
+  }}>Get Report</button>
   </div>
   )
 }
