@@ -20,6 +20,6 @@ function ManageUser() {
 </div>
     </div>
   )
-}
+  }
 
 export default ManageUser
