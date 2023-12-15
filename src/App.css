@@ -104,3 +104,21 @@ h1{
   color: rgb(8, 99, 8);
 }
 
+.Table{
+    border-collapse: collapse;
+    height: 65px;
+ 
+}
+.two{
+   border-collapse: collapse;
+   background-color: pink;
+   border: 1px solid rgb(125, 123, 123);
+   height: 45px;
+}
+.table,th, td{
+  border: 2px solid rgb(135, 133, 133);
+  border-collapse: collapse;
+}
+.search{
+  margin-left: 900px;
+}
