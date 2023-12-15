@@ -15,6 +15,10 @@ function GetReport() {
         </div>
         <br></br>
         <br></br>
+                  <div className='search'>
+                  <label>search:</label>
+                  <input></input>
+             </div>
         <br></br>
          <table className='table'>
         <tr>

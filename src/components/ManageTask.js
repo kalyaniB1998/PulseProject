@@ -1,17 +1,15 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-import {  NavLink } from 'react-router-dom'
-
-
-function Tasks() {
+function ManageTask() {
   return (
-  <div className='App'>
-    <div className='pulsediv'> 
+    <div className='App'>
+      <div className='pulsediv'> 
     <div className='pulsebrn'>
     <NavLink to="/" style={{color:"white"}}>Home</NavLink>
       <h1><strong style={{fontFamily:"sans-serif",color:"white"}}>Pulse.</strong><strong style={{color:"rgb(224,59,43)"}}>B</strong><strong style={{color:"rgb(162,161,166)"}}>R</strong><strong style={{color:"rgb(224,59,43)",fontFamily:"monospace",fontSize:"2.6rem"}}>n</strong></h1>
   </div>
- <nav className='ranknav'>
+    <nav className='ranknav'>
  <NavLink to="/Ranking" className='rank'>Ranking</NavLink>
  <NavLink to="/FeeReport" className='rank'>Fee Report</NavLink>
  <NavLink to="/BatchesSummary" className='rank'>Batches Summary</NavLink>
@@ -21,8 +19,8 @@ function Tasks() {
  <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
 </nav>
 </div>
-    </div>
+        </div>
   )
 }
 
-export default Tasks
+export default ManageTask
