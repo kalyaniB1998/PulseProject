@@ -9,6 +9,7 @@ function TopNavigation() {
             <NavLink to="/home">Home</NavLink>
             <NavLink to="/">Delete</NavLink>
             <NavLink to="/">Logout</NavLink>
+            <NavLink to="/GetReport">GetReport</NavLink>
         </nav>
     </div>
   )
