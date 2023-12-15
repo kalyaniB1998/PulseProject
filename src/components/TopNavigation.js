@@ -7,6 +7,7 @@ function TopNavigation() {
         <nav>
             <NavLink to="/">Login</NavLink>
             <NavLink to="/home">Home</NavLink>
+            <NavLink to="/task">Task</NavLink>
             <NavLink to="/">Delete</NavLink>
             <NavLink to="/">Logout</NavLink>
         </nav>

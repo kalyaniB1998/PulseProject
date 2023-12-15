@@ -6,7 +6,7 @@ function Signup() {
 
   return (
     <div className='App'>
-    
+      
       <form>
       <div>
            <h2>Signup</h2>
@@ -28,7 +28,7 @@ function Signup() {
                 <option value="choose your state">choose your state</option>
                 <option value="Ap">Andhra pradesh</option>
                 <option value="telangana">Telangana</option>
-                <option value="mp">Madya pradesh</option>
+                <option value="mp">Madhya pradesh</option>
                 <option value="up">Uttar pradesh</option>
             </select>
         </div>
