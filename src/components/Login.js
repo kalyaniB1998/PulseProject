@@ -5,9 +5,15 @@ import { Link } from 'react-router-dom'
 function Login() {
 
   return (
+
+
+    <div className="App">
+
     
-    <div className='App'>
+    
+
         <TopNavigation/>
+        
         <form>
           <img src="./images/brn.png"></img>
         <h2>LogIn</h2>
