@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 function ForgotPassword() {
   return (
     <div className='forgot'>
-    
         <h1 className='h1'>Forgot Password ?</h1>
         
        <p>Enter your registred e-mail address below to get your password to email.</p> 
