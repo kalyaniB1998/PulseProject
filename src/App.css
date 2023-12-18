@@ -130,3 +130,24 @@ h1{
 .search{
   margin-left: 900px;
 }
+.msgtr{
+  border-collapse: collapse;
+  border: 1px solid rgb(125, 123, 123);
+  width: 60px;
+  height: 30px;
+  
+}
+.msgtable{
+  border: 2px solid rgb(135, 133, 133);
+  border-collapse: collapse;
+  margin-left: 200px;
+  padding: 10px;
+ 
+ }
+ .msgth{
+  background-color: rgb(26, 122, 247);
+}
+/* .td{
+  
+padding: 20px;
+} */

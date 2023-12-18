@@ -19,9 +19,10 @@ function Messages() {
 </nav>
 </div>
 <div>
-  <table>
-    <thead>
-    <tr>
+  <button>Send Message</button>
+  <table className='msgtable' >
+   <thead className='msgth'>
+    <tr  >
       <th>Msg UID.</th>
       <th>Category</th>
       <th>Subject</th>
@@ -32,7 +33,16 @@ function Messages() {
     </tr>
     </thead>
     <tbody>
-      <tr>
+    <tr  className='msgtr'>
+        <td>6</td>
+        <td >Information</td>
+        <td>rhkhtjkrhk</td>
+        <td>2305</td>
+        <td>0 of 0</td>
+        <td></td>
+        <td>Tue, 21-Mar-2023 01:10:13 pm</td>
+      </tr>
+      <tr  className='msgtr'>
         <td></td>
         <td></td>
         <td></td>
@@ -41,7 +51,7 @@ function Messages() {
         <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr  className='msgtr'>
         <td></td>
         <td></td>
         <td></td>
@@ -50,7 +60,7 @@ function Messages() {
         <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr  className='msgtr'>
         <td></td>
         <td></td>
         <td></td>
@@ -59,7 +69,7 @@ function Messages() {
         <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr  className='msgtr'>
         <td></td>
         <td></td>
         <td></td>
@@ -68,7 +78,7 @@ function Messages() {
         <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr  className='msgtr'>
         <td></td>
         <td></td>
         <td></td>
@@ -77,16 +87,7 @@ function Messages() {
         <td></td>
         <td></td>
       </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </tbody>
+      </tbody>
     
   </table>
 </div>
