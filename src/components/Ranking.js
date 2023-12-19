@@ -12,13 +12,13 @@ function Ranking() {
   </div>
 
  <nav className='ranknav'>
- <NavLink to="/Ranking" className='rank'>Ranking</NavLink>
- <NavLink to="/FeeReport" className='rank'>Fee Report</NavLink>
- <NavLink to="/BatchesSummary" className='rank'>Batches Summary</NavLink>
- <NavLink to="/Requests" className='rank'>Requests</NavLink>
- <NavLink to="/Messages" className='rank'>Messages</NavLink>
- <NavLink to="/ManageTask" className='rank'>Manage Task</NavLink>
- <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
+ <NavLink to="/ranking" className='rank'>Ranking</NavLink>
+ <NavLink to="/feeReport" className='rank'>Fee Report</NavLink>
+ <NavLink to="/batchesSummary" className='rank'>Batches Summary</NavLink>
+ <NavLink to="/requests" className='rank'>Requests</NavLink>
+ <NavLink to="/messages" className='rank'>Messages</NavLink>
+ <NavLink to="/manageTask" className='rank'>Manage Task</NavLink>
+ <NavLink to="/manageUser" className='rank'>Manage User</NavLink>
 </nav>
 </div>
 <br></br> <br></br><br></br> 
@@ -36,7 +36,7 @@ function Ranking() {
 
 <br></br>
   <button type='button' onClick={()=>{
-    <NavLink to={"/GetReport"}></NavLink>
+    <NavLink to={"/getReport"}></NavLink>
   }}>Get Report</button>
   </div>
   )

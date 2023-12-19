@@ -10,6 +10,7 @@ function Messages() {
       <h1><strong className='pulse'>Pulse.</strong><strong className='b'>B</strong><strong className='r'>R</strong><strong className='n'>n</strong></h1>
   </div>
          <nav className='ranknav'>
+
  <NavLink to="/Ranking" className='rank'>Ranking</NavLink>
  <NavLink to="/FeeReport" className='rank'>Fee Report</NavLink>
  <NavLink to="/BatchesSummary" className='rank'>Batches Summary</NavLink>
@@ -18,7 +19,7 @@ function Messages() {
  <NavLink to="/ManageTask" className='rank'>Manage Task</NavLink>
  <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
  <NavLink to="/SubmissionDetails">SubmissionDetails</NavLink>
-</nav>
+ </nav>
 </div>
 <div className='msgdiv'>
   

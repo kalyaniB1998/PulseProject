@@ -29,17 +29,21 @@ function App() {
       <Route path='/signup' element={<Signup/>}></Route>
       <Route path='/home' element={<Home/>}></Route>
       <Route path='/task' element={<Tasks/>}></Route>
-      <Route path='/Ranking' element={<Ranking/>}></Route>
-      <Route path='/FeeReport' element={<FeeReport/>}></Route>
-      <Route path='/BatchesSummary' element={<BatchesSummary/>}></Route>
-      <Route path='/Requests' element={<Requests/>}></Route>
-      <Route path='/Messages' element={<Messages/>}></Route>
-      <Route path='/ManageTask' element={<ManageTask/>}></Route>
-      <Route path='/ManageUser' element={<ManageUser/>}></Route>
-      <Route path='/TopNavigation' element={<TopNavigation/>}></Route>
+      <Route path='/ranking' element={<Ranking/>}></Route>
+      <Route path='/feeReport' element={<FeeReport/>}></Route>
+      <Route path='/batchesSummary' element={<BatchesSummary/>}></Route>
+      <Route path='/requests' element={<Requests/>}></Route>
+      <Route path='/messages' element={<Messages/>}></Route>
+      <Route path='/manageTask' element={<ManageTask/>}></Route>
+      <Route path='/manageUser' element={<ManageUser/>}></Route>
+      <Route path='/topNavigation' element={<TopNavigation/>}></Route>
       <Route path='/getreport' element={<GetReport/>}></Route>
       <Route path="/submissiondetails" element={<SubmissionDetails/>}></Route>
       <Route path='Forgot password' element={<ForgotPassword/>}></Route>
+
+
+      <Route path='forgot password' element={<ForgotPassword/>}></Route>
+
 
   </Routes>
     </BrowserRouter>
