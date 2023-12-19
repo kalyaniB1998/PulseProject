@@ -122,3 +122,28 @@ h1{
 .search{
   margin-left: 900px;
 }
+.user1{
+  border-collapse: collapse;
+}
+.manage{
+  background-color: rgb(5, 148, 204);
+}
+.edit{
+  width: 70px;
+}
+.delete{
+  width: 70px;
+}
+.role{
+  width: 100px;
+}
+.approve{
+  width: 70px;
+}
+.surname{
+  width: 150px;
+}
+.firstname{
+  width: 100px;
+  /* color: rgb(18, 152, 205); */
+}

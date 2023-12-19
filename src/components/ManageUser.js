@@ -8,7 +8,7 @@ function ManageUser() {
 <NavLink to="/" style={{color:"white"}}>Home</NavLink>
       <h1><strong style={{fontFamily:"sans-serif",color:"white"}}>Pulse.</strong><strong style={{color:"rgb(224,59,43)"}}>B</strong><strong style={{color:"rgb(162,161,166)"}}>R</strong><strong style={{color:"rgb(224,59,43)",fontFamily:"monospace",fontSize:"2.6rem"}}>n</strong></h1>
   </div>
-     <nav className='ranknav'>
+  <nav className='ranknav'>
  <NavLink to="/Ranking" className='rank'>Ranking</NavLink>
  <NavLink to="/FeeReport" className='rank'>Fee Report</NavLink>
  <NavLink to="/BatchesSummary" className='rank'>Batches Summary</NavLink>
@@ -18,8 +18,162 @@ function ManageUser() {
  <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
 </nav>
 </div>
+<div>
+  <h2 className='manage'>Manage Users</h2>
+  Search<input style={{margin:"right"}}></input>
+  <table className="user1">
+ <thead>
+  <tr>
+    <th>ID</th>
+    <th>Photography</th>
+    <th className="firstname">FirstName</th>
+    <th className="surname">SurName</th>
+    <th>Email</th>
+    <th>MobileNo</th>
+    <th className="role">Role</th>
+    <th className="approve">Aprove</th>
+    <th className="edit">Edit</th>
+    <th className="delete">Delete</th>
+    </tr>
+    </thead>
+     <tbody>
+      <tr>
+       <td>1</td>
+       <img src="./images/profile.png"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>2</td>
+       <img src="./images/girl.jpeg"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>3</td>
+       <img src="./images/profile.png"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>4</td>
+       <img src="./images/girl.jpeg"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>4</td>
+       <img src="./images/profile.png"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <img src="./images/girl.jpeg"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>6</td>
+       <img src="./images/profile.png"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>7</td>
+       <img src="./images/girl.jpeg"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>8</td>
+       <img src="./images/profile.png"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>9</td>
+       <img src="./images/girl.jpeg"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+      <tr>
+       <td>10</td>
+       <img src="./images/profile.png"></img>
+       <td>Student 211208</td>
+       <td></td>
+       <td>BRNstudent211208@gmail.com</td>
+       <td>+123-1234567890</td>
+       <td>Student</td>
+       <td>211208</td>
+       <td>Edit</td>
+       <td>Delete</td>
+      </tr>
+     </tbody>
+  </table>
+</div>
     </div>
+
   )
   }
-
 export default ManageUser

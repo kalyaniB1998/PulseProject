@@ -10,7 +10,6 @@ function Login() {
         <div className="body">
         <form>
           <img src="./images/brn.png"></img>
-          {/* <p>Learn.Practise.Performe</p> */}
         <h2>LogIn</h2>
             <div>
                 <input placeholder='Email' ></input>
