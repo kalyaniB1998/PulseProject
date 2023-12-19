@@ -7,15 +7,11 @@ function Login() {
   return (
 
 
-    <div className="App">
-
-    
-    
-
-        <TopNavigation/>
+    <div className="App" style={{backgroundColor:"rgb(54,65,80)"}}>
+<TopNavigation/>
         
-        <form>
-          <img src="./images/brn.png"></img>
+        <form >
+          <img src="./images/logo.png"></img>
         <h2>LogIn</h2>
             <div>
                 <input placeholder='Email' ></input>

@@ -1,15 +1,18 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 
 function SubmissionDetails() {
+
+
   return (
     <div >
      <div className='pulsediv'> 
 <div className='pulsebrn' style={{height:"70px"}}>
-<NavLink to="/Messages" style={{color:"white"}}>Home</NavLink>
+<NavLink to="/Messages" style={{color:"white"}}>Back</NavLink>
       <h1><strong className='pulse'>Pulse.</strong><strong className='b'>B</strong><strong className='r'>R</strong><strong className='n'>n</strong></h1>
   </div>
 </div>
+<div className='msgdiv'>
         <table className='mtable' style={{border:"0.5px solid grey"}}>
         <caption style={{backgroundColor:"grey",textAlign:"left",color:"white",fontSize:"1.5rem",marginTop:"20px"}}>Submission Details</caption>
       
@@ -29,110 +32,110 @@ function SubmissionDetails() {
     </thead> 
     <tbody className='two'>
     <tr>
-     <td></td>
-     <td></td>
-     <td>unread</td>
-     <td>Not Yet</td>
-    </tr>  
-    <tr>
-     <td></td>
+     <td>1</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
-     <td></td>
-     <td></td>
-     <td>unread</td>
-     <td>Not Yet</td>
-    </tr>  
-    <tr>
-     <td></td>
+     <td>2</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
-     <td></td>
+     <td>3</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
+     <td>4</td>
      <td></td>
+     <td>unread</td>
+     <td>Not Yet</td>
+    </tr>  
+    <tr>
+     <td>5</td>
+     <td></td>
+     <td>unread</td>
+     <td>Not Yet</td>
+    </tr>  
+    <tr>
+     <td>6</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     
     <tr>
-     <td></td>
-     <td></td>
-     <td>unread</td>
-     <td>Not Yet</td>
-    </tr>  
-    <tr>
-     <td></td>
+     <td>7</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
-     <td></td>
-     <td></td>
-     <td>unread</td>
-     <td>Not Yet</td>
-    </tr>  
-    <tr>
-     <td></td>
+     <td>8</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
-     <td></td>
-     <td></td>
-     <td>unread</td>
-     <td>Not Yet</td>
-    </tr>  
-    <tr>
-     <td></td>
+     <td>9</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
-     <td></td>
-     <td></td>
-     <td>unread</td>
-     <td>Not Yet</td>
-    </tr>  
-    <tr>
-     <td></td>
+     <td>10</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
-     <td></td>
-     <td></td>
-     <td>unread</td>
-     <td>Not Yet</td>
-    </tr>  
-    <tr>
-     <td></td>
+     <td>11</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
-     <td></td>
+     <td>12</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
     </tr>  
     <tr>
+     <td>13</td>
      <td></td>
+     <td>unread</td>
+     <td>Not Yet</td>
+    </tr>  
+    <tr>
+     <td>14</td>
+     <td></td>
+     <td>unread</td>
+     <td>Not Yet</td>
+    </tr>  
+    <tr>
+     <td>15</td>
+     <td></td>
+     <td>unread</td>
+     <td>Not Yet</td>
+    </tr>  
+    <tr>
+     <td>16</td>
+     <td></td>
+     <td>unread</td>
+     <td>Not Yet</td>
+    </tr>  
+    <tr>
+     <td>17</td>
+     <td></td>
+     <td>unread</td>
+     <td>Not Yet</td>
+    </tr>  
+    <tr>
+     <td>18</td>
      <td></td>
      <td>unread</td>
      <td>Not Yet</td>
@@ -142,7 +145,7 @@ function SubmissionDetails() {
   
     </table>
      
-
+    </div>
        
     </div>
   )
