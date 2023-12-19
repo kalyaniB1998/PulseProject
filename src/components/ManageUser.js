@@ -8,7 +8,6 @@ function ManageUser() {
 <NavLink to="/" style={{color:"white"}}>Home</NavLink>
       <h1><strong className='pulse'>Pulse.</strong><strong className='b'>B</strong><strong className='r'>R</strong><strong className='n'>n</strong></h1>
   </div>
-
   <nav className='ranknav'>
  <NavLink to="/Ranking" className='rank'>Ranking</NavLink>
  <NavLink to="/FeeReport" className='rank'>Fee Report</NavLink>
@@ -18,20 +17,16 @@ function ManageUser() {
  <NavLink to="/ManageTask" className='rank'>Manage Task</NavLink>
  <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
 
-     <nav className='ranknav'>
- <NavLink to="/ranking" className='rank'>Ranking</NavLink>
- <NavLink to="/feeReport" className='rank'>Fee Report</NavLink>
- <NavLink to="/batchesSummary" className='rank'>Batches Summary</NavLink>
- <NavLink to="/requests" className='rank'>Requests</NavLink>
- <NavLink to="/messages" className='rank'>Messages</NavLink>
- <NavLink to="/manageTask" className='rank'>Manage Task</NavLink>
- <NavLink to="/manageUser" className='rank'>Manage User</NavLink>
-
+    
 </nav>
 </div>
 <div>
-  <h2 className='manage'>Manage Users</h2>
-  Search<input style={{margin:"right"}}></input>
+  <button type='button'className='manageusers'>ManageUser</button>
+  <table className='mtable'>
+  <div style={{display:"flex",justifyContent:"right",marginRight:"45px",marginTop:"30px"}}>
+            <label style={{marginRight:"10px"}}> My Search :</label>
+            <input style={{padding:"5px"}}></input>
+        </div>
   <table className="user1">
  <thead>
   <tr>
@@ -39,7 +34,7 @@ function ManageUser() {
     <th>Photography</th>
     <th className="firstname">FirstName</th>
     <th className="surname">SurName</th>
-    <th>Email</th>
+    <th className="email">Email</th>
     <th>MobileNo</th>
     <th className="role">Role</th>
     <th className="approve">Aprove</th>
@@ -50,7 +45,7 @@ function ManageUser() {
      <tbody>
       <tr>
        <td>1</td>
-       <img src="./images/profile.png"></img>
+       <img className='images' src="./images/profile.png"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -62,7 +57,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>2</td>
-       <img src="./images/girl.jpeg"></img>
+       <img className='images' src="./images/girl.jpeg"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -74,7 +69,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>3</td>
-       <img src="./images/profile.png"></img>
+       <img className='images'src="./images/profile.png"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -86,7 +81,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>4</td>
-       <img src="./images/girl.jpeg"></img>
+       <img className='images' src="./images/girl.jpeg"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -98,7 +93,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>4</td>
-       <img src="./images/profile.png"></img>
+       <img className='images'src="./images/profile.png"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -110,7 +105,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>5</td>
-       <img src="./images/girl.jpeg"></img>
+       <img className='images' src="./images/girl.jpeg"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -122,7 +117,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>6</td>
-       <img src="./images/profile.png"></img>
+       <img className='images' src="./images/profile.png"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -134,7 +129,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>7</td>
-       <img src="./images/girl.jpeg"></img>
+       <img className='images'src="./images/girl.jpeg"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -146,7 +141,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>8</td>
-       <img src="./images/profile.png"></img>
+       <img className='images' src="./images/profile.png"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -158,7 +153,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>9</td>
-       <img src="./images/girl.jpeg"></img>
+       <img className='images'src="./images/girl.jpeg"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -170,7 +165,7 @@ function ManageUser() {
       </tr>
       <tr>
        <td>10</td>
-       <img src="./images/profile.png"></img>
+       <img className='images' src="./images/profile.png"></img>
        <td>Student 211208</td>
        <td></td>
        <td>BRNstudent211208@gmail.com</td>
@@ -181,6 +176,7 @@ function ManageUser() {
        <td>Delete</td>
       </tr>
      </tbody>
+  </table>
   </table>
 </div>
     </div>

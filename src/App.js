@@ -35,15 +35,11 @@ function App() {
       <Route path='/manageUser' element={<ManageUser/>}></Route>
       <Route path='/topNavigation' element={<TopNavigation/>}></Route>
       <Route path='/getreport' element={<GetReport/>}></Route>
-
       <Route path='Forgot password' element={<ForgotPassword/>}></Route>
-
       <Route path="/submissiondetails" element={<SubmissionDetails/>}></Route>
       <Route path='Forgot password' element={<ForgotPassword/>}></Route>
-
-
       <Route path='forgot password' element={<ForgotPassword/>}></Route>
-
+</Routes>
 
     </BrowserRouter>
 );

@@ -123,12 +123,27 @@ h1{
 .search{
   margin-left: 900px;
 }
+.email{
+  width: 200px;
+}
 
 .user1{
   border-collapse: collapse;
+  width: 1200px;
+}
+.manageusers{
+  background-color: rgb(18, 151, 203);
+  color: white;
+  width: 1200px;
 }
 .manage{
   background-color: rgb(5, 148, 204);
+  color: white;
+  border: 0.5px solid  rgb(26, 122, 247);
+}
+.images{
+  width: 200px;
+  height: 200px;
 }
 .edit{
   width: 70px;

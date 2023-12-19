@@ -22,12 +22,9 @@ function Messages() {
  </nav>
 </div>
 <div className='msgdiv'>
-  
   <button type='button'className='msgbutton'>Send Message</button>
-  
   <table className='mtable'>
   <caption className='msgbutton'>1,2,3,4,5,6</caption>
-
   <table className='msgtable'>
    <thead >
     <tr>
