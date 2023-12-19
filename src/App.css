@@ -114,14 +114,16 @@ h1{
    background-color: pink;
    border: 1px solid rgb(125, 123, 123);
    height: 45px;
+   text-align: center;
 }
 .table,th, td{
-  border: 2px solid rgb(135, 133, 133);
+  border: 0.5px solid rgb(135, 133, 133);
   border-collapse: collapse;
 }
 .search{
   margin-left: 900px;
 }
+
 .user1{
   border-collapse: collapse;
 }
@@ -147,3 +149,56 @@ h1{
   width: 100px;
   /* color: rgb(18, 152, 205); */
 }
+
+.msgtr{
+  border-collapse: collapse;
+  border: 0.5px solid rgb(125, 123, 123);
+  width: 60px;
+  height: 30px;
+  
+}
+.msgtable{
+  border: 0.5px solid rgb(135, 133, 133);
+  border-collapse: collapse;
+   width: 95%;
+ margin: 2%;
+ 
+ 
+ }
+ .msgth{
+  background-color: rgb(26, 122, 247);
+  text-align: center;
+
+}
+
+.msgbutton{
+  display: flex;
+  flex-direction:row;
+  justify-content: left;
+  background-color: rgb(26, 122, 247);
+  color: white;
+  border: 0px solid rgb(26, 122, 247);
+}
+
+.mtable{
+  border: 0.5px solid  rgb(26, 122, 247);
+  border-collapse: collapse;
+   width: 90%;
+   }
+
+   .pulse{
+    font-family:sans-serif;
+    color:white;
+   }
+   .b{
+    color:rgb(224,59,43);
+   }
+   .r{
+    color:rgb(162,161,166);
+   }.n{
+
+    color:rgb(224,59,43);
+    font-family: monospace;
+    font-size: 2.6rem;
+   }
+

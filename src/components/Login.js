@@ -23,7 +23,7 @@ function Login() {
             <div>
             <Link className="acc" to="/signup">CREATE AN ACCOUNT</Link>
             </div>
-            <Link to="/Forgot Password">Fotgot Password?</Link>
+            <Link to="/forgot Password">Fotgot Password?</Link>
         </form>
         </div>
     </div>
