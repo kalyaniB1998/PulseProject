@@ -11,6 +11,7 @@ function TopNavigation() {
             <NavLink to="/">Delete</NavLink>
             <NavLink to="/">Logout</NavLink>
             <NavLink to="/GetReport">GetReport</NavLink>
+            
         </nav>
     </div>
   )

@@ -16,6 +16,7 @@ import BatchesSummary from "./components/BatchesSummary";
 import ManageUser from "./components/ManageUser";
 
 import ForgotPassword from "./components/ForgotPassword";
+import SubmissionDetails from "./components/SubmissionDetails";
 
 
 
@@ -37,7 +38,7 @@ function App() {
       <Route path='/ManageUser' element={<ManageUser/>}></Route>
       <Route path='/TopNavigation' element={<TopNavigation/>}></Route>
       <Route path='/getreport' element={<GetReport/>}></Route>
-
+      <Route path="/submissiondetails" element={<SubmissionDetails/>}></Route>
       <Route path='Forgot password' element={<ForgotPassword/>}></Route>
 
   </Routes>
