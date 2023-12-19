@@ -5,7 +5,6 @@ import Signup from './components/Signup';
 import Home from './components/Home';
 import TopNavigation from "./components/TopNavigation";
 import GetReport from "./components/GetReport";
-
 import Tasks from "./components/Tasks";
 import Ranking from "./components/Ranking";
 import FeeReport from "./components/FeeReport";
@@ -14,7 +13,6 @@ import Messages from "./components/Messages";
 import Requests from "./components/Requests";
 import BatchesSummary from "./components/BatchesSummary";
 import ManageUser from "./components/ManageUser";
-
 import ForgotPassword from "./components/ForgotPassword";
 import SubmissionDetails from "./components/SubmissionDetails";
 
@@ -22,7 +20,6 @@ import SubmissionDetails from "./components/SubmissionDetails";
 
 function App() {
   return (
-    
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Login/>}></Route>
@@ -38,14 +35,12 @@ function App() {
       <Route path='/manageUser' element={<ManageUser/>}></Route>
       <Route path='/topNavigation' element={<TopNavigation/>}></Route>
       <Route path='/getreport' element={<GetReport/>}></Route>
+      <Route path='Forgot password' element={<ForgotPassword/>}></Route>
       <Route path="/submissiondetails" element={<SubmissionDetails/>}></Route>
       <Route path='Forgot password' element={<ForgotPassword/>}></Route>
-
-
       <Route path='forgot password' element={<ForgotPassword/>}></Route>
+</Routes>
 
-
-  </Routes>
     </BrowserRouter>
 );
 

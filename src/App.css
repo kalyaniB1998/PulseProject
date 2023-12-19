@@ -1,13 +1,13 @@
 .App {
  text-align: center;
-
 }
-
+/* .body{
+background-color: rgb(42, 54, 77);
+} */
 nav{
   display: flex;
   justify-content: space-evenly;
 }
-
 form{
   display:inline-block;
   margin: 10px;
@@ -19,7 +19,7 @@ form div{
   }
 .login{
   border-radius: 5px;
-  border: 2px solid rgb(227, 200, 200);
+  border: 2px solid whitesmoke;
   display: inline-block;
   width: 200px;
   height: 50px;
@@ -61,7 +61,6 @@ button{
   color: white;
   font-family:sans-serif;
   padding:9px;
-  
  }
  .rank:hover{
   /* font-size: 1.5rem; */
@@ -76,17 +75,13 @@ button{
   border-radius: 10px;
   margin-top:30px;
   background-color: rgb(109, 107, 107);
- 
 }
-
-
 p{
   margin-right: 130px;
 }
 .pulsediv{
   background-color:rgb(42,54,66);
   /* text-align: left; */
-
 }
 .pulsebrn{
   height: 50px;
@@ -94,9 +89,6 @@ p{
    justify-content:baseline;
   align-items:initial;
 }
- 
-
-
 .acc{
   width: 200px;
   height: 40px;
@@ -131,6 +123,48 @@ h1{
 .search{
   margin-left: 900px;
 }
+.email{
+  width: 200px;
+}
+
+.user1{
+  border-collapse: collapse;
+  width: 1200px;
+}
+.manageusers{
+  background-color: rgb(18, 151, 203);
+  color: white;
+  width: 1200px;
+}
+.manage{
+  background-color: rgb(5, 148, 204);
+  color: white;
+  border: 0.5px solid  rgb(26, 122, 247);
+}
+.images{
+  width: 200px;
+  height: 200px;
+}
+.edit{
+  width: 70px;
+}
+.delete{
+  width: 70px;
+}
+.role{
+  width: 100px;
+}
+.approve{
+  width: 70px;
+}
+.surname{
+  width: 150px;
+}
+.firstname{
+  width: 100px;
+  /* color: rgb(18, 152, 205); */
+}
+
 .msgtr{
   border-collapse: collapse;
   border: 0.5px solid rgb(125, 123, 123);
@@ -185,3 +219,6 @@ h1{
    .msgdiv{
     margin-left: 1%;
    }
+
+
+
