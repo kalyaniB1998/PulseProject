@@ -1,13 +1,13 @@
 .App {
  text-align: center;
-
 }
-
+/* .body{
+background-color: rgb(42, 54, 77);
+} */
 nav{
   display: flex;
   justify-content: space-evenly;
 }
-
 form{
   display:inline-block;
   margin: 10px;
@@ -19,7 +19,7 @@ form div{
   }
 .login{
   border-radius: 5px;
-  border: 2px solid rgb(227, 200, 200);
+  border: 2px solid whitesmoke;
   display: inline-block;
   width: 200px;
   height: 50px;
@@ -60,7 +60,6 @@ button{
   color: white;
   font-family:sans-serif;
   padding:9px;
-  
  }
  .rank:hover{
   /* font-size: 1.5rem; */
@@ -74,7 +73,6 @@ button{
   border-radius: 10px;
   margin-top:30px;
   background-color: rgb(109, 107, 107);
- 
 }
 p{
   margin-right: 130px;
@@ -82,7 +80,6 @@ p{
 .pulsediv{
   background-color:rgb(42,54,66);
   /* text-align: left; */
-
 }
 .pulsebrn{
   height: 50px;
@@ -115,14 +112,16 @@ h1{
    background-color: pink;
    border: 1px solid rgb(125, 123, 123);
    height: 45px;
+   text-align: center;
 }
 .table,th, td{
-  border: 2px solid rgb(135, 133, 133);
+  border: 0.5px solid rgb(135, 133, 133);
   border-collapse: collapse;
 }
 .search{
   margin-left: 900px;
 }
+
 .navBar{
   font-size: 1.2rem;
   height:50px;
@@ -145,3 +144,104 @@ h1{
   margin: 15px;
   font-size: 1.2rem;
 }
+
+.email{
+  width: 200px;
+}
+
+.user1{
+  border-collapse: collapse;
+  width: 1200px;
+}
+.manageusers{
+  background-color: rgb(18, 151, 203);
+  color: white;
+  width: 1200px;
+}
+.manage{
+  background-color: rgb(5, 148, 204);
+  color: white;
+  border: 0.5px solid  rgb(26, 122, 247);
+}
+.images{
+  width: 200px;
+  height: 200px;
+}
+.edit{
+  width: 70px;
+}
+.delete{
+  width: 70px;
+}
+.role{
+  width: 100px;
+}
+.approve{
+  width: 70px;
+}
+.surname{
+  width: 150px;
+}
+.firstname{
+  width: 100px;
+  /* color: rgb(18, 152, 205); */
+}
+
+.msgtr{
+  border-collapse: collapse;
+  border: 0.5px solid rgb(125, 123, 123);
+  width: 60px;
+  height: 30px;
+  
+}
+.msgtable{
+  border: 0.5px solid rgb(135, 133, 133);
+  border-collapse: collapse;
+   width: 95%;
+ margin: 2%;
+ 
+ 
+ }
+ .msgth{
+  background-color: rgb(26, 122, 247);
+  text-align: center;
+
+}
+
+.msgbutton{
+  display: flex;
+  flex-direction:row;
+  justify-content: left;
+  background-color: rgb(26, 122, 247);
+  color: white;
+  border: 0px solid rgb(26, 122, 247);
+}
+
+.mtable{
+  border: 0.5px solid  rgb(26, 122, 247);
+  border-collapse: collapse;
+   width: 90%;
+   }
+
+   .pulse{
+    font-family:sans-serif;
+    color:white;
+   }
+   .b{
+    color:rgb(224,59,43);
+   }
+   .r{
+    color:rgb(162,161,166);
+   }.n{
+
+    color:rgb(224,59,43);
+    font-family: monospace;
+    font-size: 2.6rem;
+   }
+   .msgdiv{
+    margin-left: 1%;
+   }
+
+
+
+

@@ -5,10 +5,13 @@ import { Link } from 'react-router-dom'
 function Login() {
 
   return (
-     <div className="App">
+
+    
+ <div className="App">
         <TopNavigation/>
-        
+        <div className="body">
         <form>
+
           <img src="./images/brn.png" alt=''></img>
         <h2>LogIn</h2>
             <div>
@@ -25,6 +28,7 @@ function Login() {
             </div>
             <Link to="/forgot Password">Fotgot Password?</Link>
         </form>
+        </div>
     </div>
   )
 }

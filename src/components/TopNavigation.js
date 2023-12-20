@@ -10,7 +10,12 @@ function TopNavigation() {
             <NavLink to="/task">Task</NavLink>
             <NavLink to="/">Delete</NavLink>
             <NavLink to="/">Logout</NavLink>
+
+            <NavLink to="/GetReport">GetReport</NavLink>
+            
+
             <NavLink to="/getReport">GetReport</NavLink>
+
         </nav>
     </div>
   )
