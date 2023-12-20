@@ -1,6 +1,4 @@
 import React from 'react'
-import TopNavigation from './TopNavigation'
-import { Link } from 'react-router-dom'
 
 function GetReport() {
   return (

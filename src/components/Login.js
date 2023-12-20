@@ -5,17 +5,11 @@ import { Link } from 'react-router-dom'
 function Login() {
 
   return (
-
-
-    <div className="App">
-
-    
-    
-
+     <div className="App">
         <TopNavigation/>
         
         <form>
-          <img src="./images/brn.png"></img>
+          <img src="./images/brn.png" alt=''></img>
         <h2>LogIn</h2>
             <div>
                 <input placeholder='Email' ></input>

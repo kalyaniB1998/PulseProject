@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function ManageTask() {
   return (
-    <div className='App'>
+    <div>
       <div className='pulsediv'> 
     <div className='pulsebrn'>
     <NavLink to="/" style={{color:"white"}}>Home</NavLink>
@@ -19,7 +19,16 @@ function ManageTask() {
  <NavLink to="/manageUser" className='rank'>Manage User</NavLink>
 </nav>
 </div>
-        </div>
+<br/>
+CreateTask
+<br></br>
+<nav className='navBar'>
+<NavLink to="/presentation">Presentation</NavLink>
+<NavLink to="/taskReview">Task Review</NavLink>
+<NavLink to="/createTask">Create Task</NavLink>
+<NavLink to="/classAttendance">Class Attendance</NavLink>
+</nav>
+</div>
   )
 }
 
