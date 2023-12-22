@@ -51,9 +51,8 @@ function App() {
       <Route path='/reviewPresentaion' element={<ReviewPresentation/>}></Route>
 
 
-      <Route path='Forgot password' element={<ForgotPassword/>}></Route>
+      <Route path='/Forgot password' element={<ForgotPassword/>}></Route>
       <Route path="/submissiondetails" element={<SubmissionDetails/>}></Route>
-      <Route path='Forgot password' element={<ForgotPassword/>}></Route>
 
       <Route path='forgot password' element={<ForgotPassword/>}></Route>
 </Routes>

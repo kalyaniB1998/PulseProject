@@ -1,6 +1,5 @@
 import React from 'react';
 import { CloseButton } from 'react-bootstrap';
-import Accordion from 'react-bootstrap/Accordion';
 import { useNavigate } from 'react-router-dom';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -12,25 +11,27 @@ import Row from 'react-bootstrap/Row';
 function ReviewPresentation() {
     let navigate = useNavigate();
   return (
-    <div>
+    <div style={{backgroundColor:'black'}}>
         <form>
     <div  style={{display:'flex',justifyContent:"space-between",width:'1200px'}}>
         <h4>Review Presentation</h4>
-      <CloseButton style={{display:"flex",justifyContent:"flex-end",alignContent:"flex-end"}}
+      <CloseButton style={{display:"flex",justifyContent:"flex-end",alignItems:"flex-end"}}
       onClick={()=>{
         navigate("/presentation");
       }}
       ></CloseButton>
       </div>
       <div style={{width:'1200px'}}>
-        <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Review Presentation</Accordion.Header>
-        <Accordion.Body>
+      
+        <h3 style={{color:'white',backgroundColor:'lightpurple' ,padding:'6px'}}>Review Presentation</h3>
+      
       <div className='circleDiv'>
         <div className='label1'>
+          <br></br>
          <label>Student Name</label>
+         <br></br>
          <label>Batch Id</label>
+         <br></br>
          <label>Selected Topic</label>
          </div>
          <div>
@@ -57,9 +58,7 @@ function ReviewPresentation() {
          <textarea></textarea>
          <button type='button' style={{fontSize:'1.3rem'}}>Review Presentation</button>
          </div>
-        </Accordion.Body>
-      </Accordion.Item>
-      </Accordion>
+        
       </div>
       <div className='closeButton'>
         <button type="button"

@@ -12,23 +12,12 @@ function ManageUser() {
 
      <DetailNavigation/>
 
-  <nav className='ranknav'>
- <NavLink to="/Ranking" className='rank'>Ranking</NavLink>
- <NavLink to="/FeeReport" className='rank'>Fee Report</NavLink>
- <NavLink to="/BatchesSummary" className='rank'>Batches Summary</NavLink>
- <NavLink to="/Requests" className='rank'>Requests</NavLink>
- <NavLink to="/Messages" className='rank'>Messages</NavLink>
- <NavLink to="/ManageTask" className='rank'>Manage Task</NavLink>
- <NavLink to="/ManageUser" className='rank'>Manage User</NavLink>
-
-    
-</nav>
-
 </div>
 <div>
   <button type='button'className='manageusers'>ManageUser</button>
   <table className='mtable'>
-  <div style={{display:"flex",justifyContent:"right",marginRight:"45px",marginTop:"30px"}}>
+    <br/>
+  <div style={{display:"flex",justifyContent:"end"}}>
             <label style={{marginRight:"10px"}}> My Search :</label>
             <input style={{padding:"5px"}}></input>
         </div>
@@ -183,7 +172,7 @@ function ManageUser() {
      </tbody>
   </table>
   </table>
-</div>
+</div><br></br>
     </div>
 
   )

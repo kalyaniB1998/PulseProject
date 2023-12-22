@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import TasksNavigation from './TasksNavigation'
-import { Accordion } from 'react-bootstrap'
 
 
 function CreateTask() {
@@ -21,10 +20,7 @@ CreateTask
 <TasksNavigation/>
 <br></br>
 <div style={{border:'1px solid blue',margin:'20px'}}>
-<Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Task and Interview Preparation</Accordion.Header>
-        <Accordion.Body>
+        <h3>Task and Interview Preparation</h3>
           <div className='label1'>
           <form>
             <div>
@@ -54,9 +50,7 @@ CreateTask
             </div>
           </form>
           </div>
-        </Accordion.Body>
-      </Accordion.Item>
-      </Accordion>
+        
       </div>
     </div>
   )
