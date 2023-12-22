@@ -13,7 +13,7 @@ function Login() {
         <form>
 
           <img src="./images/brn.png" alt=''></img>
-        <h2>LogIn</h2>
+           <h2>LogIn</h2>
             <div>
                 <input placeholder='Email' ></input>
             </div>

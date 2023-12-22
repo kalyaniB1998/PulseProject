@@ -242,6 +242,32 @@ h1{
     margin-left: 1%;
    }
 
+.label1 label{
+  font-size: 1.3rem;
+  padding: 20px;
+  display: block;
+}
+ .label1 label:after{
+  content: '*️';
+  color:red; 
+} 
+.circleDiv{
+  display: flex;
+  justify-content: space-around;
+}
+textarea{
+  border:0.5px solid gray;
+  width: 900px;
+  height:100px;
+}
+.selectLabel{
+  font-size: 1.3rem;
+}
+.closeButton{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
 
 
 
