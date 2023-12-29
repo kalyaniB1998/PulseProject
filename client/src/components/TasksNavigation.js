@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function TasksNavigation() {
   let activeLink=(obj)=>{
-    if(obj.isActive==true){
+    if(obj.isActive===true){
     return({color:"white",backgroundColor:"blue"})
   }};
   return (
