@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 
 import { Link } from 'react-router-dom'
 
@@ -10,6 +10,7 @@ function Signup() {
   let profilePicInputRef=useRef();
   let emailInputRef=useRef();
   let passwordInputRef=useRef();
+  let [profilePicURL,setProfilePicURL]=useState("./images/Profile-pic.jpg");
 
   let sendSignupDataToServerFormData=async()=>{
     let dataToSend=new FormData();
@@ -19,8 +20,10 @@ function Signup() {
         dataToSend.append("city",cityInputRef.current.value);
         dataToSend.append("profilePic",profilePicInputRef.current.value);
         dataToSend.append("email",emailInputRef.current.value);
-        dataToSend.append("password",passwordInputRef.current.value);
 
+        for(let i=0;i<profilePicInputRef.current.files.length;i++){
+        dataToSend.append("password",passwordInputRef.current.file[i]);
+      }
     let reqOptions={
       method:"POST",
       body:dataToSend,
@@ -28,6 +31,8 @@ function Signup() {
     
     let JSONData=await fetch("http://localhost:5555/signup",reqOptions);
     let JSOData=await JSONData.json();
+
+    alert(JSOData.msg);
      console.log(JSOData);
   }
 
@@ -60,9 +65,15 @@ function Signup() {
             </select>
         </div>
         <div>
-          <input ref={profilePicInputRef} className='login' type="file" placeholder="Image"/>
+          <input ref={profilePicInputRef} className='login' type="file" placeholder="Image"
+          onChange={()=>{
+            let selectedImageURL=URL.createObjectURL(profilePicInputRef.current.files[0])
+
+            setProfilePicURL(selectedImageURL)
+          }}
+          />
           <br></br>
-          <img className='profilepic' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPoHljTV9c5ViwxQOf7TwqybNnhGh_FNY0hg&usqp=CAU"/>
+          <img className='profilepic' src={profilePicURL}></img>
           <br></br>
           <br></br>
           
@@ -77,7 +88,12 @@ function Signup() {
            <input ref={passwordInputRef} className="login" type="password" placeholder="password"/>
         </div>
         <div>
-           <button className='password' type='button'>Submit</button>
+           <button 
+           onClick={()=>{
+              sendSignupDataToServerFormData();
+
+           }}
+           className='password' type='button'>Submit</button>
         </div>
       </form>
       <br/>

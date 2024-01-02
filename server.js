@@ -50,7 +50,7 @@ app.post("/signup",upload.none(),async(req,res)=>{
           lastName:req.body.lastName,
           mobileNumber:req.body.mobileNumber,
           city:req.body.city,
-          profilePic:req.body.profilePic,
+          profilePic:req.file.path,
           email:req.body.email,
           passWord:req.body.passWord,
         });
